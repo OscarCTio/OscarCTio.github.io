@@ -11,8 +11,8 @@
     "profiles": [
       { "network": "github", "username": "OscarCTio", "url": "http://github.com/OscarCTio" },
       { "network": "linkedin", "username": "oscartio", "url": "http://linkedin.com/in/oscar-tio-525a793a5/" },
-      { "network": "twitter", "username": "TBA", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "TBA", "url": "http://instagram.com/changeme" }
+      { "network": "twitter", "username": "TBA", "url": "http://twitter.com/" },
+      { "network": "instagram", "username": "TBA", "url": "http://instagram.com/" }
     ]
   },
   "interests": [

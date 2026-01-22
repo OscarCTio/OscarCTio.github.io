@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/fpga.png
 title: "FPGA"
 date: 2024-11-19
 published: true

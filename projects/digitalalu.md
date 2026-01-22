@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/alu.png
+image: img/alu2.png
 title: "Digital ALU"
 date: 2023-12-07
 published: true

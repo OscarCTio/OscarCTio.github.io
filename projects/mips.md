@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/mips.png
+image: img/mips2.png
 title: "MIPS Assembly Programming with QtSPIM"
 date: 2024-10-22
 published: true

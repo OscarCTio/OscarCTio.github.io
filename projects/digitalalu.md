@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/alu.png
 title: "Digital ALU"
 date: 2023-12-07
 published: true

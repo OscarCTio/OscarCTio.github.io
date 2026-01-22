@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/fpga.png
+image: img/fpga2.png
 title: "FPGA"
 date: 2024-11-19
 published: true

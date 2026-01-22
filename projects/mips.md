@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/mips.png
 title: "MIPS Assembly Programming with QtSPIM"
 date: 2024-10-22
 published: true

@@ -20,8 +20,9 @@ A example from a good smart question comes from another poster that is asking wh
 
 Looking at both of those questions, you can see that asking smart questions is not only about receiving answers, but also engaging in problem solving. This experience demonstrates that smart questions force the asker to clarify their own understanding, define constraints, and isolate the source of confusion before seeking help. Observing how question quality directly influenced the depth and usefulness of feedback reinforces how smart questions act as a signal of engineering maturity. Ultimately, this process emphasized that learning to ask better questions is an essential skill for software engineers, as it improves both individual understanding and the collective quality of shared technical knowledge.
 
-Bad example: [Stack Overflow Git repository question][bad]
-Good example: [Unity profiler smart question][good]
+Bad example: [Repository question][bad]
+
+Good example: [Unity profiler question][good]
 
 
 

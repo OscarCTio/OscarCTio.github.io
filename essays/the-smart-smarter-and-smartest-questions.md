@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/TypeScript-logo.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/smart.jpg">
 
 Asking questions is a important part of engineering. Asking SMART questions is even more important! The quality of answers received can often defend on how well questions are formed. Smart questions can demonstrate how well a person knows their own problem and showing that will make it more likely to receive useful and meaningful responses. I will go over why asking smart questions is an important skill of software engineers, using "How To Ask Questions The Smart Way" to analyze a good and bad examples of questions from Stack Overflow.
 

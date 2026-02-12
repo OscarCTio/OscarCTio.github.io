@@ -11,7 +11,7 @@ labels:
   - Coding Practices
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/standards.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/standards.png">
 
 When I first started coding, it wouldn’t be an exaggeration to say that my code was a mess. I cared almost exclusively about whether the program worked, not whether anyone, including my future self, could easily read, understand, or maintain it. Indentation was sometimes inconsistent, variable names were vague, and documentation was mostly an afterthought. It wasn’t until my second programming class that I began to realize that writing “working code” is only part of what it means to be a good software engineer. How code is written matters just as much as what it does. I used to think coding standards were just about braces and spacing, but now I realize they actually help me think more clearly and write higher-quality code.
 

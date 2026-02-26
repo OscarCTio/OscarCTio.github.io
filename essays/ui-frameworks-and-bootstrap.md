@@ -12,7 +12,7 @@ labels:
   - Bootstrap
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/tamuras.png">
+<img width="600px" class="rounded float-start pe-4" src="../img/tamuras">
 
 ## The Learning Curve of UI Frameworks
 

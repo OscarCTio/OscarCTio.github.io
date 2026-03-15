@@ -65,7 +65,7 @@
       "area": "Computer Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2021-09-01",
-      "endDate": "Present,
+      "endDate": "Present",
       "courses": [
         "Data Structures and Algorithms",
         "Operating Systems",
@@ -110,8 +110,8 @@
     {
       "company": "US Army Reserves",
       "position": "Signal Support Specialist",
-      "startDate": "2020-02-012",
-      "endDate": "2026-02-012",
+      "startDate": "2020-02-01",
+      "endDate": "2026-02-01",
       "summary": "Responsible for tactical communications systems and radio operations.",
       "highlights": [
         "Maintained and operated tactical radio systems",

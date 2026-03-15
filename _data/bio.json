@@ -1,57 +1,133 @@
 {
   "basics": {
     "name": "Oscar Tio",
-    "label": "Student",
+    "label": "Computer Engineering Student",
     "picture": "https://github.com/OscarCTio.png",
-    "email": "oscartio@hawaii.edu",
+    "email": "oscclytio@gmail.com",
     "phone": "808-206-1405",
-    "website": "https://OscarCTio.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering in the Department of Electrical and Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring, 2026.",
-    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "website": "https://oscarctio.github.io",
+    "summary": "Computer Engineering student at the University of Hawaii at Manoa graduating May 2026. Experience with LiDAR sensing, robotics software, data processing, and embedded systems. Interested in robotics, sensing systems, and software development.",
+    "location": {
+      "address": "",
+      "postalCode": "96816",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "OscarCTio", "url": "http://github.com/OscarCTio" },
-      { "network": "linkedin", "username": "oscartio", "url": "http://linkedin.com/in/oscar-tio-525a793a5/" }
+      {
+        "network": "github",
+        "username": "OscarCTio",
+        "url": "https://github.com/OscarCTio"
+      },
+      {
+        "network": "linkedin",
+        "username": "oscartio",
+        "url": "https://linkedin.com/in/oscar-tio-525a793a5/"
+      }
     ]
   },
-  "interests": [
-    { "name": "Robotics" },
-    { "name": "Story Writing" },
-    { "name": "Data Analysis" }
-  ],
+
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Typescript", "Javascript", "Python", "MATLAB" ]
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "MATLAB"
+      ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub", "g++" ]
-    }
-  ],
-  "education": [
+      "name": "Frameworks",
+      "keywords": [
+        "React",
+        "Next.js",
+        "Node.js"
+      ]
+    },
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Spring, 2026)",
-      "studyType": "B.S.",
-      "startDate": "2021-09-01",
-      "endDate": "Present",
-      "courses": [
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "Linux",
+        "ROS2",
+        "VSCode",
+        "MATLAB"
       ]
     }
   ],
+
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09-01",
+      "endDate": "2026-05-01",
+      "courses": [
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Software Engineering",
+        "Computer Architecture",
+        "Circuit Analysis",
+        "Signals and Systems",
+        "Electromagnetics",
+        "Electronic Devices"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Impedance Analysis",
+      "startDate": "2024-08-01",
+      "endDate": "Present",
+      "summary": "Microfluidic bio-electrical sensing research project.",
+      "highlights": [
+        "Developed impedance analysis workflows for microfluidic sensing experiments",
+        "Designed fabrication procedures for microfluidic devices",
+        "Performed data collection and analysis using MATLAB",
+        "Created protocols for fabrication, data collection, and data processing"
+      ]
+    },
+    {
+      "name": "LiDAR Object Detection and Mapping",
+      "startDate": "2025-08-01",
+      "endDate": "2025-12-01",
+      "summary": "LiDAR sensing project focused on detection and reconstruction of non-explosive objects.",
+      "highlights": [
+        "Collected LiDAR point-cloud data from non-explosive surrogate targets",
+        "Processed LiDAR data using Python and ROS2",
+        "Developed data collection and processing workflows",
+        "Generated 3D reconstructions of scanned environments"
+      ]
+    }
+  ],
+
   "work": [
     {
       "company": "US Army Reserves",
       "position": "Signal Support Specialist",
-      "website": "",
-      "startDate": "2020-08-01",
-      "endDate": "2026-02-12",
-      "summary": "Comminications Specialist",
+      "startDate": "2020-02-01",
+      "endDate": "2026-02-01",
+      "summary": "Responsible for tactical communications systems and radio operations.",
       "highlights": [
-        "Maintain and operate radios"
+        "Maintained and operated tactical radio systems",
+        "Established radio communications during operations",
+        "Conducted training sessions on radio operation procedures"
       ]
     }
   ],
+
+  "interests": [
+    { "name": "Robotics" },
+    { "name": "Data Analysis" },
+    { "name": "Story Writing" }
+  ],
+
   "references": [
     {
       "name": "Available upon request"

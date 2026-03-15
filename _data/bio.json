@@ -4,9 +4,8 @@
     "label": "Computer Engineering Student",
     "picture": "https://github.com/OscarCTio.png",
     "email": "oscclytio@gmail.com",
-    "phone": "808-206-1405",
     "website": "https://oscarctio.github.io",
-    "summary": "Computer Engineering student at the University of Hawaii at Manoa graduating May 2026. Experience with LiDAR sensing, robotics software, data processing, and embedded systems. Interested in robotics, sensing systems, and software development.",
+    "summary": "Computer Engineering student at the University of Hawaii at Manoa graduating May 2026.",
     "location": {
       "address": "",
       "postalCode": "96816",
@@ -66,7 +65,7 @@
       "area": "Computer Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2021-09-01",
-      "endDate": "2026-05-01",
+      "endDate": "Present,
       "courses": [
         "Data Structures and Algorithms",
         "Operating Systems",
@@ -95,8 +94,8 @@
     },
     {
       "name": "LiDAR Object Detection and Mapping",
-      "startDate": "2025-08-01",
-      "endDate": "2025-12-01",
+      "startDate": "2025-08-26",
+      "endDate": "2025-12-16",
       "summary": "LiDAR sensing project focused on detection and reconstruction of non-explosive objects.",
       "highlights": [
         "Collected LiDAR point-cloud data from non-explosive surrogate targets",
@@ -111,8 +110,8 @@
     {
       "company": "US Army Reserves",
       "position": "Signal Support Specialist",
-      "startDate": "2020-02-01",
-      "endDate": "2026-02-01",
+      "startDate": "2020-02-012",
+      "endDate": "2026-02-012",
       "summary": "Responsible for tactical communications systems and radio operations.",
       "highlights": [
         "Maintained and operated tactical radio systems",

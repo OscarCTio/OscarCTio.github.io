@@ -11,7 +11,7 @@ labels:
   - Web Development
 ---
 
-<img width="600px" class="rounded float-start pe-4" src="../img/design-patterns-logo">
+<img width="600px" class="rounded float-start pe-4" src="../img/design-patterns-logo.png">
 
 ## Recognizing Patterns in Code
 

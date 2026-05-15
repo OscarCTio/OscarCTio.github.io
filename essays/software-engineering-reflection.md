@@ -56,8 +56,6 @@ This was very useful during the Manoa Pulse project. Since the app had several p
 
 One thing I learned from this process is that Agile project management is not just about moving fast. It is about making progress visible and manageable. When a task was too large or unclear, it became harder to finish. When the task was specific, it was easier to complete and test. For example, “improve Manoa Pulse” is not a very useful task because it is too broad. A better issue would be “redirect the user to the Pulse Feed after submitting an update” because it has a clear expected result.
 
-I can see myself using Issue Driven Project Management outside of web development. For example, in a hardware or microfluidics project, I could create issues for designing a channel, fabricating a mold, testing electrode spacing, collecting impedance data, writing MATLAB analysis scripts, and documenting results. Even though that kind of project is not a web application, it still benefits from breaking the work into smaller tasks. This approach would make it easier to track experiments, assign responsibilities, and understand what still needs to be completed.
-
 ## Configuration Management
 
 Configuration management is the process of keeping track of the tools, settings, dependencies, and files needed for a project to run correctly. Before taking this class, I did not think much about configuration. I mostly thought that if the code was correct, the project should work. However, in ICS 314, I learned that a software project can fail even when the code is mostly correct if the configuration is wrong.
@@ -83,7 +81,6 @@ Working on Manoa Pulse helped me understand why open source practices are valuab
 
 Open source development also taught me the value of collaboration and review. When working on a team, it is easy for one person’s changes to affect another part of the project. Using GitHub made it easier to track changes and review work before merging. It also made mistakes less permanent because the history of the project was saved through commits. If something broke, we could look back and figure out what changed.
 
-This idea applies beyond web applications. Any project involving code or technical design can benefit from open source practices. For example, a MATLAB script for impedance analysis could be stored in a repository with documentation and version history. A SystemVerilog project for an FPGA could use branches for different modules and pull requests for review. Even if the project is not public, using open source-style workflows can make collaboration more organized and reliable.
 
 ## What I Learned Overall
 
@@ -96,3 +93,6 @@ I also learned that software engineering involves dealing with uncertainty. Some
 In the future, I expect to use these software engineering skills in many different contexts. Whether I am working on a web application, an FPGA design, a research experiment, or a data analysis script, I can apply the same ideas: break work into manageable tasks, manage configuration carefully, use version control, write readable code, and document the project so others can understand it.
 
 ICS 314 taught me that software engineering is not just about the final product. It is about the process used to create that product. A good process makes it easier to collaborate, adapt, debug, and improve. That is the main lesson I will take from this class.
+
+
+AI was used while writing this essay. ChatGPT was asked to rephrase some sentences to make them smoother, clearer, or more concise while preserving my original idea or intent.

@@ -4,7 +4,7 @@ type: project
 image: img/mips3.png
 title: "MIPS Assembly Programming with QtSPIM"
 date: 2024-10-22
-published: true
+published: false
 labels:
   - Computer Architecture
   - MIPS Assembly

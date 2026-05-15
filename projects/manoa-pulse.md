@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/manoa-pulse-home.png
+image: img/manoa-pulse-home2.png
 title: "Manoa Pulse"
 date: 2026-05
 published: true

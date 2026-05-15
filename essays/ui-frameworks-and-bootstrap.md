@@ -92,7 +92,7 @@ labels:
 </style>
 
 <div class="essay-hero">
-  <img src="../img/tamuras.png" alt="Bootstrap web page example">
+  <img src="../img/tamuras" alt="Bootstrap web page example">
 
   <p>
     UI frameworks like Bootstrap 5 can feel overwhelming at first. Instead of only writing HTML and CSS, you suddenly have to learn containers, rows, columns, breakpoints, components, and utility classes. However, after using Bootstrap more, I started to understand why frameworks are useful for building cleaner and more consistent web pages.

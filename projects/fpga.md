@@ -29,7 +29,7 @@ The goal of the project was to move beyond simulation and verify that the hardwa
 - Synthesized, implemented, and programmed the design using Vivado
 - Verified the ALU through simulation and physical hardware testing
 
-## Screenshots
+## Basys3 Board
 
 <div class="screenshot-gallery">
 

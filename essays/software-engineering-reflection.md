@@ -12,13 +12,39 @@ labels:
   - Open Source Software
 ---
 
+<style>
+.essay-image-card {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.essay-image-card img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.essay-image-card figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+</style>
+
 When I first started ICS 314, I thought the class would mainly be about learning how to build web applications. That's pretty much what I heard before taking this class. In one sense, that was true. I learned how to work with Next.js, React, TypeScript, Bootstrap, Prisma, PostgreSQL, GitHub, and Vercel. However, by the end of the semester, I realized that the class was not only about web development. The web application was the environment where we practiced broader software engineering skills. The more important lessons were about how to work on software in a structured, collaborative, and professional way.
 
 The project that helped me understand this the most was Manoa Pulse, a web application my team built to help University of Hawaiʻi at Mānoa students check how busy campus locations are. The app allowed users to view and submit crowd updates for places such as Hamilton Library, Campus Center, Paradise Palms, and the Warrior Recreation Center. While building Manoa Pulse, I learned that writing code is only one part of software engineering. A successful project also requires planning, communication, testing, version control, deployment, and the ability to adapt when things do not work as expected.
 
-![Manoa Pulse GitHub project board](../img/manoa-pulse-project-board.png)
-
-*The Manoa Pulse GitHub project board helped our team organize development tasks using issue-driven project management.*
+<figure class="essay-image-card">
+  <img src="../img/manoa-pulse-project-board.png" alt="Manoa Pulse GitHub project board">
+  <figcaption>The Manoa Pulse GitHub project board helped our team organize development tasks using issue-driven project management.</figcaption>
+</figure>
 
 Three software engineering topics that stood out to me the most were Agile project management, configuration management, and open source software development. These topics are useful far beyond web application development because they apply to almost any technical project that involves building, maintaining, and improving a system over time.
 
@@ -50,9 +76,10 @@ Open source software development is the practice of building software in a way t
 
 Working on Manoa Pulse helped me understand why open source practices are valuable. Since the project was shared through a GitHub organization, the code and project site could be accessed by others. This meant that the project needed to be understandable, not just functional. Good commit messages, readable code, consistent formatting, and project documentation became more important because other people might need to read or continue the work.
 
-![Manoa Pulse pull requests](../img/manoa-pulse-pull-requests.png)
-
-*The pull request history shows how GitHub was used to review, merge, and track changes during development.*
+<figure class="essay-image-card">
+  <img src="../img/manoa-pulse-pull-requests.png" alt="Manoa Pulse pull request history">
+  <figcaption>The pull request history shows how GitHub was used to review, merge, and track changes during development.</figcaption>
+</figure>
 
 Open source development also taught me the value of collaboration and review. When working on a team, it is easy for one person’s changes to affect another part of the project. Using GitHub made it easier to track changes and review work before merging. It also made mistakes less permanent because the history of the project was saved through commits. If something broke, we could look back and figure out what changed.
 

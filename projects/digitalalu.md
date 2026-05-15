@@ -8,14 +8,85 @@ published: true
 labels:
   - Digital Logic Design
   - SystemVerilog
-summary: "Designed a digital ALU that was deployed in Falstad Circuit Simulator."
+  - Falstad
+summary: "Designed and simulated a gate-level 4-bit ALU with arithmetic, logic, comparison, and status flag operations."
 ---
 
-The Digital ALU (Arithmetic Logic Unit) project is a digital design assignment where you build, simulate, and implement a 4-bit ALU. The ALU was designed at the gate level and supports a comprehensive set of arithmetic and logical operations, including addition, subtraction (A−B and B−A), multiplication, division by two, bitwise XOR, comparison (A < B), and scaling operations such as 2×A. Each operation was carefully designed with proper handling of carry, borrow, overflow, and zero conditions, using a combination of full adders, full subtractors, decoders, logic gates, and ROM-based lookup structures where appropriate. Detailed logic diagrams and truth tables were developed to validate correctness and ensure predictable behavior across all possible 4-bit input combinations
+## Overview
 
-Beyond individual operations, the major accomplishment of this project was the successful integration of all subcircuits into a single ALU architecture with shared control logic and status flags. A decoder-based control scheme was used to select operations, while dedicated logic generated condition flags (Z, V, and C) to reflect result state, overflow, and carry/borrow events. The complete design was then translated into SystemVerilog, consolidating each operation into reusable modules.
+This project involved the design, simulation, and implementation of a 4-bit Arithmetic Logic Unit (ALU). The ALU was built at the gate level and designed to perform a variety of arithmetic, logical, and comparison operations. The purpose of the project was to apply digital logic concepts to a complete processor-style component and verify its behavior through circuit simulation and SystemVerilog implementation.
 
-Project Report:
-[View full ALU design report (PDF)](https://drive.google.com/file/d/1aRiCzFURgQmIcU0sWAOrj4vAuj4ZrPIs/view?usp=sharing)
+The ALU supports operations such as addition, subtraction, multiplication, division by two, bitwise XOR, comparison, and scaling. Each operation was designed using digital logic components such as full adders, full subtractors, decoders, logic gates, multiplexers, and ROM-based lookup structures. Truth tables and logic diagrams were used throughout the design process to confirm that each operation behaved correctly for all 4-bit input combinations.
 
+## Project Features
 
+- Designed a 4-bit gate-level ALU
+- Supported arithmetic operations such as addition, subtraction, multiplication, and division by two
+- Supported logical operations such as bitwise XOR
+- Implemented comparison logic for evaluating whether `A < B`
+- Added scaling operations such as `2 × A`
+- Generated status flags for zero, overflow, carry, and borrow conditions
+- Integrated multiple subcircuits into one complete ALU architecture
+- Simulated the circuit using Falstad Circuit Simulator
+- Translated the design into modular SystemVerilog code
+
+## Screenshot
+
+<div class="screenshot-gallery">
+
+  <figure>
+    <img src="/img/alu2.png" alt="Digital ALU circuit design">
+    <figcaption>Gate-level ALU circuit design created and simulated in Falstad.</figcaption>
+  </figure>
+
+</div>
+
+<style>
+.screenshot-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem auto 2.5rem auto;
+  max-width: 900px;
+}
+
+.screenshot-gallery figure {
+  margin: 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.screenshot-gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.screenshot-gallery figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+</style>
+
+## My Contributions
+
+My work focused on designing and validating the ALU’s internal logic. I helped break the system into smaller subcircuits, including arithmetic units, comparison logic, control logic, and status flag generation. Each section had to be tested individually before being integrated into the complete ALU.
+
+I also worked on verifying the correctness of the design using truth tables, logic diagrams, and circuit simulation. This included checking edge cases such as overflow, zero outputs, carry events, and borrow conditions. After the circuit design was completed, the logic was translated into SystemVerilog modules so that the design could be represented in hardware description language form.
+
+## What I Learned
+
+This project helped me better understand how higher-level computer architecture components are built from basic digital logic gates. Designing the ALU at the gate level showed how operations such as addition, subtraction, comparison, and overflow detection are implemented inside a digital system.
+
+I also learned the importance of modular design. Building each operation as a smaller subcircuit made the overall ALU easier to test, debug, and integrate. The project also strengthened my understanding of how control signals are used to select operations and how status flags provide important information about the result of a computation.
+
+Working with both Falstad and SystemVerilog helped connect circuit-level design with hardware description language implementation. This made the project useful for understanding both the visual behavior of digital circuits and the structured design process used in HDL-based systems.
+
+## Project Report
+
+[View full ALU design report PDF](https://drive.google.com/file/d/1aRiCzFURgQmIcU0sWAOrj4vAuj4ZrPIs/view?usp=sharing)

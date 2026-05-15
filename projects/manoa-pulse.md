@@ -24,9 +24,51 @@ You can view the project site here: [Manoa Pulse GitHub Page](https://manoa-puls
 
 ## Screenshots
 
-<img src="/img/manoa-pulse-feed.png" alt="Manoa Pulse Home Page" style="max-width: 700px; width: 100%; display: block; margin: 1rem auto;">
+<div class="screenshot-gallery">
 
-<img src="/img/manoa-pulse-map.png" alt="Manoa Pulse Map View" style="max-width: 700px; width: 100%; display: block; margin: 1rem auto;">
+  <figure>
+    <img src="/img/manoa-pulse-feed.png" alt="Manoa Pulse Pulse Feed">
+    <figcaption>Pulse Feed showing real-time busyness levels for campus locations.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="/img/manoa-pulse-map.png" alt="Manoa Pulse Map View">
+    <figcaption>Campus map view showing location activity levels across UH Mānoa.</figcaption>
+  </figure>
+
+</div>
+
+<style>
+.screenshot-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1.5rem auto 2.5rem auto;
+  max-width: 950px;
+}
+
+.screenshot-gallery figure {
+  margin: 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+}
+
+.screenshot-gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.screenshot-gallery figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+</style>
 
 ## My Contributions
 

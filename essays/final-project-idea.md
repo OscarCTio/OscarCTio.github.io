@@ -3,6 +3,7 @@ layout: essay
 type: essay
 title: "Manoa Overflow"
 date: 2026-03-30
+published: false
 labels:
   - Software Engineering
   - Nextjs

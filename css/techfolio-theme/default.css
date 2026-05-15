@@ -6,13 +6,23 @@
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--bs-blue);
-  --tf-pill-bg: var(--bs-gray);
+
+  /* Custom accent colors */
+  --bs-link-color: #198754;
+  --bs-link-hover-color: #146c43;
+
+  --tf-pill-bg: #198754;
   --tf-icon-fill: var(--bs-gray);
-  --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
-  --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-icon-hover: #198754;
+
+  --tf-page-bg-color: #ffffff;
+  --tf-footer-bg-color: #f1f3f5;
+  --tf-projects-bg-color: #eef8f2;
+}
+
+/* Overall page polish */
+body {
+  background: #fafafa;
 }
 
 /* Format social media icons */
@@ -27,12 +37,152 @@
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
+  transform: translateY(-2px);
 }
 
 a {
   text-decoration: none;
+  color: #198754;
 }
 
+a:hover {
+  color: #146c43;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #212529 !important;
+}
+
+.nav-link:hover {
+  color: #198754 !important;
+}
+
+/* Main headings */
+h1 {
+  color: #198754;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+h2,
+h3 {
+  color: #212529;
+}
+
+/* Profile / landing section */
+.profile {
+  padding: 2rem 0;
+}
+
+/* Project section */
+.tf-projects-section,
+#projects {
+  background: linear-gradient(180deg, #eef8f2 0%, #ffffff 100%);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Essay section */
+.tf-essays-section,
+#essays {
+  background: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Cards */
+.card {
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+/* Project images */
+.card img {
+  object-fit: cover;
+}
+
+/* Project and essay card titles */
+.card-title,
+.card h4,
+.card h5 {
+  color: #198754;
+  font-weight: 600;
+}
+
+/* Card body spacing */
+.card-body {
+  padding: 1.25rem;
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
+}
+
+/* Labels / pills */
+.badge,
+.rounded-pill {
+  border-radius: 999px !important;
+  padding: 0.35rem 0.6rem;
+}
+
+/* TechFolios project labels */
+.tf-pill {
+  background-color: #198754 !important;
+  color: #ffffff !important;
+  border-radius: 999px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.75rem;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-primary:hover,
+.btn-outline-secondary:hover {
+  background-color: #198754;
+  border-color: #198754;
+  color: #ffffff;
+}
+
+/* Homepage section spacing */
+section {
+  scroll-margin-top: 4rem;
+}
+
+/* Optional: make project rows feel cleaner */
+.row {
+  row-gap: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--tf-footer-bg-color);
+  border-top: 1px solid #dee2e6;
+}
+
+/* Mobile tweaks */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -41,10 +191,4 @@ a {
   .navbar-brand-mobile {
     display: inline;
   }
-}
-
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
 }

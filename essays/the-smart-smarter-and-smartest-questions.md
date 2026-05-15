@@ -10,24 +10,147 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/smart.jpg">
+<style>
+.essay-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem 0;
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
 
-Asking questions is a important part of engineering. Asking SMART questions is even more important! The quality of answers received can often defend on how well questions are formed. Smart questions can demonstrate how well a person knows their own problem and showing that will make it more likely to receive useful and meaningful responses. I will go over why asking smart questions is an important skill of software engineers, using "How To Ask Questions The Smart Way" to analyze a good and bad examples of questions from Stack Overflow.
+.essay-hero img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
-One example of a poorly formed smart question is the poster asking simply whether “a folder inside a repository is a repository itself.” The question lacks clear context about the author’s goals, the specific system or tools being used, and any effort to research or articulate the underlying problem they want to solve. There is no indication of prior investigation into how Git treats subdirectories versus nested repositories. There is also no example demonstrating where the asker’s understanding breaks down. Because of this vagueness, the question invites speculation rather than targeted answers, and the community ultimately struggled to provide useful guidance without first seeking clarification. The post has been closed by Stack Overflow for "needs details or clarity." It fails to satisfy core smart-question criteria such as specificity, demonstrated effort, and answerability.
+.essay-hero p {
+  margin: 0;
+}
 
-A example from a good smart question comes from another poster that is asking whether it is possible to tie a profiler sample to a method in Unity to avoid multiple Profiler.EndSample() calls. In the post, question clearly defines the technical problem, includes a minimal code example demonstrating the pattern the author finds problematic, and situates the issue within a specific context. By showing what they are trying to achieve the poster reduces ambiguity and enables responders to understand the point of confusion. The question aligns well with the core precepts of smart questioning: clarity, context, and technical focus.
+.essay-card {
+  margin: 1.75rem 0;
+  padding: 1.25rem 1.4rem;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-left: 5px solid #198754;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+}
 
-Looking at both of those questions, you can see that asking smart questions is not only about receiving answers, but also engaging in problem solving. This experience demonstrates that smart questions force the asker to clarify their own understanding, define constraints, and isolate the source of confusion before seeking help. Observing how question quality directly influenced the depth and usefulness of feedback reinforces how smart questions act as a signal of engineering maturity. Ultimately, this process emphasized that learning to ask better questions is an essential skill for software engineers, as it improves both individual understanding and the collective quality of shared technical knowledge.
+.essay-card.bad {
+  border-left-color: #dc3545;
+}
 
-Bad example: [Repository question][bad]
+.essay-card.good {
+  border-left-color: #198754;
+}
 
-Good example: [Unity profiler question][good]
+.essay-card.reflection {
+  border-left-color: #0d6efd;
+}
 
+.essay-card h2 {
+  margin-top: 0;
+}
 
+.link-card {
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
 
-AI was used while writing this essay.
-ChatGPT was asked to rephrase some sentences to make them smoother, clearer, or more concise while preserving my original idea or intent.
+.link-card ul {
+  margin-bottom: 0;
+}
+
+.ai-note {
+  margin-top: 2rem;
+  padding: 0.9rem 1rem;
+  font-size: 0.95rem;
+  color: #555;
+  background: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 700px) {
+  .essay-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .essay-hero img {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+<div class="essay-hero">
+  <img src="../img/smart.jpg" alt="Smart questions illustration">
+
+  <p>
+    Asking questions is an important part of engineering, but asking clear and well-formed questions is even more important. In software engineering, the quality of the answer often depends on the quality of the question. A smart question shows that the asker understands their own problem, has made an effort to investigate it, and can explain what kind of help they need.
+  </p>
+</div>
+
+In this essay, I will explain why asking smart questions is an important skill for software engineers. I will use ideas from “How To Ask Questions The Smart Way” to compare one weak Stack Overflow question and one stronger Stack Overflow question.
+
+<div class="essay-card bad">
+
+## A Weak Question
+
+One example of a poorly formed question is a post asking whether “a folder inside a repository is a repository itself.” The question lacks clear context about the author’s goal, the specific system or tools being used, and what they already tried to understand the issue. There is no clear explanation of whether the asker is confused about Git, GitHub, subdirectories, or nested repositories.
+
+Because of this vagueness, the question invites speculation rather than targeted answers. The community would have to ask for clarification before giving useful guidance. The post was eventually closed by Stack Overflow for needing more details or clarity. This question fails to meet several smart-question criteria, including specificity, demonstrated effort, and answerability.
+
+</div>
+
+<div class="essay-card good">
+
+## A Stronger Question
+
+A stronger example comes from a poster asking whether it is possible to tie a profiler sample to a method in Unity to avoid multiple `Profiler.EndSample()` calls. This question works better because it clearly defines the technical problem, gives a specific context, and includes a minimal code example showing the pattern the author wants to improve.
+
+By showing what they are trying to achieve, the poster reduces ambiguity and makes it easier for others to understand the source of confusion. The question is focused enough for someone with Unity or profiling experience to respond directly. It follows several important parts of smart questioning: clarity, context, technical focus, and evidence of effort.
+
+</div>
+
+<div class="essay-card reflection">
+
+## What This Shows About Software Engineering
+
+Looking at both questions, I realized that asking smart questions is not only about receiving answers. It is also part of the problem-solving process. A good question forces the asker to slow down, define the issue, identify constraints, and explain what they already know.
+
+For software engineers, this matters because many problems are too complex to solve by simply asking, “Why does this not work?” A better question shows the specific behavior, the expected result, the tools being used, and what has already been tested. This makes it easier for others to help, but it also helps the asker understand their own problem more clearly.
+
+The difference between these two examples shows how question quality affects the quality of feedback. A vague question can lead to confusion, while a focused question can lead to useful technical discussion. Learning to ask better questions is an important engineering skill because it improves individual learning and also improves the quality of shared technical knowledge.
+
+</div>
+
+<div class="link-card">
+
+## Examples
+
+- Bad example: [Repository question][bad]
+- Good example: [Unity profiler question][good]
+
+</div>
+
+<div class="ai-note">
+
+**AI use note:** AI was used while writing this essay. ChatGPT was asked to rephrase some sentences to make them smoother, clearer, or more concise while preserving my original idea and intent.
+
+</div>
 
 [bad]: https://stackoverflow.com/questions/79878338/is-a-folder-inside-a-repository-a-repository-itself
 [good]: https://stackoverflow.com/questions/79878107/can-i-tie-a-profiler-sample-to-a-method-to-avoid-multiple-profiler-endsample-c

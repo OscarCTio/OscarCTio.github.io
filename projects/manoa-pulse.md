@@ -24,9 +24,9 @@ You can view the project site here: [Manoa Pulse GitHub Page](https://manoa-puls
 
 ## Screenshots
 
-![Manoa Pulse Screenshot](/img/manoa-pulse-feed.png)
+<img src="/img/manoa-pulse-feed.png" alt="Manoa Pulse Home Page" style="max-width: 700px; width: 100%; display: block; margin: 1rem auto;">
 
-![Manoa Pulse Map View](/img/manoa-pulse-map.png)
+<img src="/img/manoa-pulse-map.png" alt="Manoa Pulse Map View" style="max-width: 700px; width: 100%; display: block; margin: 1rem auto;">
 
 ## My Contributions
 
